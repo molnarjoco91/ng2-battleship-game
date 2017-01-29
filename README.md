@@ -1,1 +1,3 @@
-# ng2-battleship-game
+## ng2-battleship-game
+
+## Installation
