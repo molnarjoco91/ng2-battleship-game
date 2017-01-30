@@ -1,7 +1,11 @@
-import { Component } from '@angular/core';
+/// <reference path="../typings/index.d.ts" />
+
+import {Component} from '@angular/core';
 
 @Component({
-  selector: 'my-app',
-  template: `<h1>Hello {{name}}</h1>`,
+    styleUrls: ['./app/filename.scss'],
+    selector: 'my-app',
+    template: `<h1>My First Angular 2 App</h1>`
 })
-export class AppComponent  { name = 'Angular'; }
+
+export class AppComponent {}
